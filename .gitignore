@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Environments / secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Model weights & large artifacts
+*.pth
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# College-work docs (not for the repo)
+EXPERIMENT_PLAN.md
+REPO_STRUCTURE.md
+RESEARCH_GAPS.md
+RESULTS_TRACKER.md
+THESIS_AUDIT.md
+TODO_NEXT.md
+results/DEFENSE_QA.md
+results/EVIDENCE_AUDIT.md
+results/PRESENTATION_DEEP_DIVE.md
+results/PROJECT_FIRST_PRINCIPLES.md
+results/ROADMAP_AND_STRATEGY.md
+assets/
+.claude/
+
+# Papers, presentations & office docs (code-only repo)
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pptm
+*.tex
+*.bib
+*.xlsx
+results/arxiv/
+build_ppt*.py
+build_ieee_paper.py
+PAPER_DRAFT.md
+PPT_OUTLINE.md
+
+# Data (raw datasets)
+/data/
+data/
+
+# Training artifacts
+wandb/
+runs/
+checkpoints/
+logs/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

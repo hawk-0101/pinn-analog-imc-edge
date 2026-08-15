@@ -1,0 +1,23 @@
+[
+  {
+    "method": "CleanTrain_PINN",
+    "mse_interp_mean": 0.004311154596507549,
+    "mse_interp_std": 0.002224254357954517,
+    "mse_extrap_mean": 0.011890188604593278,
+    "mse_extrap_std": 0.002313502687538006
+  },
+  {
+    "method": "NoisyTrain_PINN",
+    "mse_interp_mean": 0.251108717918396,
+    "mse_interp_std": 0.06407421336974417,
+    "mse_extrap_mean": 0.04231947613880038,
+    "mse_extrap_std": 0.05699451302184588
+  },
+  {
+    "method": "NoisyTrain_StdNN",
+    "mse_interp_mean": 0.1613728493452072,
+    "mse_interp_std": 0.033305155805189564,
+    "mse_extrap_mean": 0.02071850746870041,
+    "mse_extrap_std": 0.019078110238788328
+  }
+]

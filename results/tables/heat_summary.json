@@ -1,0 +1,82 @@
+[
+  {
+    "method": "PINN",
+    "bits": 4,
+    "noise_std": 0.0,
+    "mse_interp_mean": 0.005934585898648948,
+    "mse_interp_std": 0.00838683377969509,
+    "mse_extrap_mean": 0.007200211123563349,
+    "mse_extrap_std": 0.009709374597556797,
+    "mse_full_mean": 0.006769898347556591
+  },
+  {
+    "method": "PINN",
+    "bits": 4,
+    "noise_std": 0.05,
+    "mse_interp_mean": 0.005763378797564655,
+    "mse_interp_std": 0.008020022383407132,
+    "mse_extrap_mean": 0.006798024359159172,
+    "mse_extrap_std": 0.008571977747860393,
+    "mse_full_mean": 0.006446244509425015
+  },
+  {
+    "method": "PINN",
+    "bits": 8,
+    "noise_std": 0.0,
+    "mse_interp_mean": 2.6067368980875472e-05,
+    "mse_interp_std": 2.7022594751331477e-05,
+    "mse_extrap_mean": 2.6220109339192278e-05,
+    "mse_extrap_std": 1.7495053946822162e-05,
+    "mse_full_mean": 2.6168177282670512e-05
+  },
+  {
+    "method": "PINN",
+    "bits": 8,
+    "noise_std": 0.05,
+    "mse_interp_mean": 6.786453304812312e-05,
+    "mse_interp_std": 4.707204837965096e-05,
+    "mse_extrap_mean": 8.567674449295737e-05,
+    "mse_extrap_std": 5.3618714174173854e-05,
+    "mse_full_mean": 7.962059098645113e-05
+  },
+  {
+    "method": "StdNN",
+    "bits": 4,
+    "noise_std": 0.0,
+    "mse_interp_mean": 0.005776378163136542,
+    "mse_interp_std": 0.0027769498907036527,
+    "mse_extrap_mean": 0.014190240623429417,
+    "mse_extrap_std": 0.010336268202778838,
+    "mse_full_mean": 0.011329527338966727
+  },
+  {
+    "method": "StdNN",
+    "bits": 4,
+    "noise_std": 0.05,
+    "mse_interp_mean": 0.005302320420742035,
+    "mse_interp_std": 0.0025986486368561926,
+    "mse_extrap_mean": 0.013542024791240692,
+    "mse_extrap_std": 0.009376299657238393,
+    "mse_full_mean": 0.010740525461733342
+  },
+  {
+    "method": "StdNN",
+    "bits": 8,
+    "noise_std": 0.0,
+    "mse_interp_mean": 0.0003423360409215093,
+    "mse_interp_std": 0.0001335482528282607,
+    "mse_extrap_mean": 0.00773104727268219,
+    "mse_extrap_std": 0.009344350790704245,
+    "mse_full_mean": 0.005218884744681418
+  },
+  {
+    "method": "StdNN",
+    "bits": 8,
+    "noise_std": 0.05,
+    "mse_interp_mean": 0.00041256107797380535,
+    "mse_interp_std": 0.00020134825672737722,
+    "mse_extrap_mean": 0.007343174470588565,
+    "mse_extrap_std": 0.008457663736475137,
+    "mse_full_mean": 0.0049867657478898765
+  }
+]
